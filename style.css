@@ -1,0 +1,166 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 70%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 80px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.btn {
+    display: block;
+    padding: 14px 24px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn.blue {
+    background-color: #1da1f2;
+}
+
+.btn.blue:hover {
+    background-color: #0e81c1;
+}
+
+.btn.orange {
+    background-color: #f97316;
+}
+
+.btn.orange:hover {
+    background-color: #ea580c;
+}
+
+.tagline {
+    margin-top: 16px;
+    color: #facc15;
+}
+
+.section {
+    margin-top: 40px;
+}
+
+.section h2 {
+    color: #14f195;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+.section p {
+    color: #ccc;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: auto;
+    max-width: 400px;
+}
+
+.features li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+
+/**------------------responvive---------------*/
+
+@media (max-width: 720px) {
+    .container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    .profile-img {
+        width: 160px;
+        height: 160px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.95rem;
+    }
+
+    .features li {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 10px 16px;
+    }
+
+    .features {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .profile-img {
+        width: 140px;
+        height: 140px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 0.85rem;
+        padding: 10px 14px;
+    }
+
+    .features li {
+        font-size: 0.85rem;
+    }
+
+    .section h2 {
+        font-size: 1.2rem;
+    }
+}
