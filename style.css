@@ -54,13 +54,13 @@ body {
 h1 {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin: -10px 0 0 0;
     color: #00ffcc;
 }
 
 .profile-img {
-    width: 100%;
-    max-width: 280px;
+    width: 80%;
+    max-width: 260px;
     border-radius: 20px;
     border: 4px solid #1da1f2;
     margin: 20px 0;
@@ -94,7 +94,7 @@ h1 {
 }
 
 .btn.primary {
-    background-color: #1da1f2;
+    background-color: #03379f;
 }
 
 .btn.primary:hover {
@@ -104,12 +104,13 @@ h1 {
 .features {
     list-style: none;
     padding: 0;
-    margin: 20px auto;
+    margin: 1% 0 0 25%;
     text-align: left;
     max-width: 450px;
     color: #eeeeee;
     font-size: 1rem;
     line-height: 1.6;
+
 }
 
 .features li {
@@ -123,39 +124,51 @@ footer {
 }
 
 .disclaimer {
-    font-style: italic;
+    margin: 6% 0 0 0;
 }
 
-/* Responsive Breakpoints */
 @media (max-width: 720px) {
     h1 {
         font-size: 1.7rem;
     }
 
     .profile-img {
-        max-width: 260px;
+        max-width: 240px;
     }
 
     .subheadline {
         font-size: 1.1rem;
     }
-}
-
-@media (max-width: 520px) {
-    .profile-img {
-        max-width: 230px;
-    }
 
     .features {
+        margin-left: 10%;
         font-size: 0.95rem;
+    }
+}
+
+/* 520px and down (mid phones) */
+@media (max-width: 520px) {
+    .profile-img {
+        max-width: 220px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
     }
 
     .btn {
         font-size: 0.95rem;
+        padding: 12px 18px;
+    }
+
+    .features {
+        margin-left: 5%;
     }
 }
 
-@media (max-width: 360px) {
+/* 420px and down (normal iPhones, small screens) */
+@media (max-width: 420px) {
     h1 {
         font-size: 1.4rem;
     }
@@ -164,11 +177,58 @@ footer {
         max-width: 200px;
     }
 
+    .features {
+        font-size: 0.9rem;
+        margin-left: 5%;
+    }
+
     .btn {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
+        padding: 12px 16px;
+    }
+}
+
+/* 360px and down (small iPhones, e.g. iPhone SE) */
+@media (max-width: 360px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .profile-img {
+        max-width: 180px;
     }
 
     .features {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+    }
+
+    .btn {
+        font-size: 0.85rem;
+        padding: 10px 14px;
+    }
+
+    .subheadline {
+        font-size: 1rem;
+    }
+}
+
+/* 320px and down (extra small devices) */
+@media (max-width: 320px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .profile-img {
+        max-width: 160px;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+        padding: 10px 12px;
+    }
+
+    .features {
+        font-size: 0.8rem;
+        margin-left: 5%;
     }
 }
