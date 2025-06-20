@@ -67,14 +67,14 @@ h1 {
 }
 
 .highlight {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     margin: 12px 0;
     color: #ffd700;
 }
 
 .subheadline {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 18px 0;
     color: #ffffff;
 }
@@ -96,6 +96,7 @@ h1 {
 .btn.primary {
     background-color: #03379f;
 }
+
 .btn.primary1 {
     background-color: #e35b06;
 }
