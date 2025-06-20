@@ -30,14 +30,9 @@ body {
     width: 100vw;
     height: 100vh;
     object-fit: fill;
-    /* 👈 Important: shows full video */
-    /* background-color: black; */
-    /* fills gaps if aspect ratio differs */
     z-index: 10;
     opacity: 0.2;
-    /* You can adjust */
-    /* filter: blur(8px); */
-    /* Optional */
+
 }
 
 
@@ -61,8 +56,8 @@ h1 {
 .profile-img {
     width: 80%;
     max-width: 260px;
-    border-radius: 20px;
-    border: 4px solid #1da1f2;
+    border-radius: 80%;
+    border: 2px solid #a6b0b5;
     margin: 20px 0;
 }
 
@@ -74,7 +69,7 @@ h1 {
 }
 
 .subheadline {
-    font-size: 0.8rem;
+    font-size: 20px;
     margin: 18px 0;
     color: #ffffff;
 }
@@ -83,11 +78,10 @@ h1 {
     display: block;
     margin: 16px auto;
     padding: 14px 20px;
-    width: 90%;
     max-width: 300px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 8px;
+    border-radius: 50px;
     text-decoration: none;
     color: #fff;
     transition: 0.3s ease;
@@ -98,12 +92,23 @@ h1 {
 }
 
 .btn.primary1 {
+    text-align: center;
+    padding: 5px 0 7px 0;
+    width: 90%;
     background-color: #e35b06;
 }
 
 .btn.primary:hover {
     background-color: #0d8ddf;
 }
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 8px;
+}
+
 
 .features {
     list-style: none;
