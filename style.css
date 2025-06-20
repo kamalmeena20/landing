@@ -96,6 +96,9 @@ h1 {
 .btn.primary {
     background-color: #03379f;
 }
+.btn.primary1 {
+    background-color: #e35b06;
+}
 
 .btn.primary:hover {
     background-color: #0d8ddf;
